@@ -1,0 +1,4 @@
+interface:
+  display_name: "头歌平台实验作业"
+  short_description: "通过 CDP 接管已登录浏览器，自动作答并提交头歌 EduCoder 实训关卡"
+  default_prompt: "Use $educoder-homework to finish and submit my EduCoder lab levels."

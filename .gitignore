@@ -1,0 +1,17 @@
+node_modules/
+coverage/
+tmp/
+jobs/
+
+*.log
+*.out
+*.done
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,26 @@
+{
+  "name": "educoder-skill",
+  "version": "0.1.0",
+  "description": "A Codex skill for reading and submitting EduCoder lab levels through an existing logged-in browser.",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "probe": "node scripts/cdp-probe.cjs",
+    "daemon": "node scripts/cdp-daemon.cjs",
+    "job": "node scripts/run-job.cjs",
+    "check": "node --check scripts/lib.cjs && node --check scripts/cdp-probe.cjs && node --check scripts/cdp-daemon.cjs && node --check scripts/run-job.cjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.0"
+  },
+  "keywords": [
+    "codex",
+    "skill",
+    "educoder",
+    "playwright",
+    "cdp"
+  ]
+}
