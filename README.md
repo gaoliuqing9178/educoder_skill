@@ -6,6 +6,16 @@
 
 > 非官方项目，与 EduCoder / 头歌平台没有隶属关系。
 
+## 一句话安装
+
+把下面这句话直接发给 Codex 或你正在用的 Agent：
+
+```text
+请把 https://github.com/gaoliuqing9178/educoder_skill 安装为 Codex 技能：克隆到 ~/.codex/skills/educoder-homework，执行 npm install，并验证 npm run check。
+```
+
+Agent 会自动完成克隆、安装依赖和基础检查。安装后重启 Codex，即可用 `$educoder-homework` 调用。
+
 ## 它能做什么
 
 - 自动发现本机浏览器的 CDP 调试端口，复用已登录的会话。
@@ -40,7 +50,7 @@ flowchart LR
 ### 1. 获取代码并安装依赖
 
 ```bash
-git clone <你的仓库地址> educoder-skill
+git clone https://github.com/gaoliuqing9178/educoder_skill.git educoder-skill
 cd educoder-skill
 npm install
 ```
